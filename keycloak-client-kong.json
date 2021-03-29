@@ -1,0 +1,10 @@
+{
+  "realm": "master",
+  "auth-server-url": "http://keycloak:8080/auth/",
+  "ssl-required": "external",
+  "resource": "kong",
+  "credentials": {
+    "secret": "56ea1d80-bc96-4284-b8cf-891a8fd3d221"
+  },
+  "confidential-port": 0
+}
