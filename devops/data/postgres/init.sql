@@ -1,0 +1,11 @@
+-- kong
+CREATE DATABASE kong;
+GRANT ALL PRIVILEGES ON DATABASE kong TO postgres;
+
+-- konga
+CREATE DATABASE konga;
+GRANT ALL PRIVILEGES ON DATABASE konga TO postgres;
+
+-- keycloak
+CREATE DATABASE keycloak;
+GRANT ALL PRIVILEGES ON DATABASE keycloak TO postgres;
